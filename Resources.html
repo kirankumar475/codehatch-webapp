@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources | CodeHatch</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #dfe9f3, #ffffff);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #111;
+      padding: 1rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .navbar a:hover {
+      color: #ff2e88;
+    }
+
+    .resources-section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .resources-section h1 {
+      font-size: 2.8rem;
+      color: #111;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .resources-section p {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    .resource-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .resource-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .resource-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .resource-card h3 {
+      color: #ff2e88;
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+
+    .resource-card p {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    .resource-card a {
+      color: #fff;
+      background: #ff2e88;
+      padding: 8px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .resource-card a:hover {
+      background: #e0266b;
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="index1.html">Home</a></li>
+         <li><a href="resources.html" class="active">Resources</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="help.html">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="resources-section">
+    <h1>🚀 Developer Resources</h1>
+    <p>Explore curated tools, tutorials, and libraries to supercharge your learning and projects.</p>
+
+    <div class="resource-cards">
+      <div class="resource-card">
+        <h3>HTML & CSS Guide</h3>
+        <p>MDN's ultimate reference for building and styling web pages.</p>
+        <a href="https://developer.mozilla.org/en-US/" target="_blank">Visit MDN</a>
+      </div>
+
+      <div class="resource-card">
+        <h3>JavaScript Docs</h3>
+        <p>Learn JavaScript with real examples and browser support notes.</p>
+        <a href="https://javascript.info/" target="_blank">Learn JS</a>
+      </div>
+
+      <div class="resource-card">
+        <h3>Free Code Camp</h3>
+        <p>Interactive coding challenges and certifications for all levels.</p>
+        <a href="https://www.freecodecamp.org/" target="_blank">Start Learning</a>
+      </div>
+
+      <div class="resource-card">
+        <h3>Frontend Mentor</h3>
+        <p>Practice real-world frontend challenges using designs and assets.</p>
+        <a href="https://www.frontendmentor.io/" target="_blank">Explore</a>
+      </div>
+
+      <div class="resource-card">
+        <h3>GitHub</h3>
+        <p>Collaborate on open-source projects and share your code portfolio.</p>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+      </div>
+
+      <div class="resource-card">
+        <h3>Font Awesome Icons</h3>
+        <p>Add scalable icons and social logos to your projects easily.</p>
+        <a href="https://fontawesome.com/" target="_blank">Get Icons</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CodeHatch. Crafted with ❤️ by Kiran Kumar Behera</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | CodeHatch</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <nav class="navbar">
+      <ul>
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="Resources.html">Resources</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="help.html">Help</a></li>
+      </ul>
+    </nav>
+    <form action="#" class="search-bar">
+      <input type="text" placeholder="Search..." />
+      <button type="submit"><i class='bx bx-search'></i></button>
+    </form>
+  </header>
+
+  <!-- CONTACT FORM -->
+  <section class="contact-container">
+    <div class="contact-card">
+      <h2><i class='bx bx-chat'></i> Contact <span style="color: #f72d7a;">Us</span></h2>
+<p> We’d love to hear from you. Whether you have a question or just want to connect, send us a message!</p>
+
+<form action="#" method="post" class="contact-form">
+  <div class="input-box">
+    <span class="icon"><i class='bx bxs-user'></i></span>
+    <input type="text" name="name" required />
+    <label>Name</label>
+  </div>
+
+  <div class="input-box">
+    <span class="icon"><i class='bx bxs-envelope'></i></span>
+    <input type="email" name="email" required />
+    <label>Email</label>
+  </div>
+
+  <div class="input-box">
+    <span class="icon"><i class='bx bxs-message-dots'></i></span>
+    <textarea name="message" rows="4" required></textarea>
+    <label>Message</label>
+  </div>
+
+  <button type="submit" class="btn">Send Message</button>
+</form>
+    </div>
+  </section>
+
+</body>
+</html>
