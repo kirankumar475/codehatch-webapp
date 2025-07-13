@@ -9,12 +9,12 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom, #4a94df, #ffffff);
+      background: linear-gradient(to bottom, #2a7dd0, #ffffff);
       margin: 0;
       padding: 0;
     }
 
-    .header {
+    header {
       background: #111;
       padding: 1rem 3rem;
       display: flex;
@@ -24,6 +24,7 @@
       top: 0;
       z-index: 10;
     }
+
     .navbar ul {
       display: flex;
       list-style: none;
@@ -32,34 +33,54 @@
     .navbar a {
       color: #fff;
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 16px;
     }
+    .navbar ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+}
 
+.navbar ul li a:hover::after {
+  transform: scaleX(1);
+}
     .navbar a:hover {
       color: #ff2e88;
     }
+
     .resources-section {
       padding: 60px 10px;
       max-width: 1200px;
       margin: auto;
     }
+
     .resources-section h1 {
       font-size: 2.8rem;
       color: #111;
       margin-bottom: 1rem;
       text-align: center;
     }
+
     .resources-section p {
       text-align: center;
       margin-bottom: 40px;
       font-size: 1.1rem;
       color: #444;
     }
+
     .resource-cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
     }
+
     .resource-card {
       background: #fff;
       padding: 25px;
@@ -67,19 +88,23 @@
       box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
     }
+
     .resource-card:hover {
       transform: translateY(-6px);
     }
+
     .resource-card h3 {
       color: #ff2e88;
       font-size: 1.4rem;
       margin-bottom: 10px;
     }
+
     .resource-card p {
       color: #555;
       font-size: 1rem;
       margin-bottom: 15px;
     }
+
     .resource-card a {
       color: #fff;
       background: #ff2e88;
@@ -88,9 +113,11 @@
       text-decoration: none;
       font-weight: 500;
     }
+
     .resource-card a:hover {
       background: #e0266b;
     }
+
     footer {
       background: #111;
       color: #ccc;
@@ -164,4 +191,4 @@
     <p>&copy; 2025 CodeHatch. Crafted with ❤️ by Kiran Kumar Behera</p>
   </footer>
 </body>
-</html>
+</html>    see this is my resoruce page check anything wrong and fix issue  
