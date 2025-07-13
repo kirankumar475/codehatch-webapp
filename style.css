@@ -70,7 +70,9 @@ body::-webkit-scrollbar {
 .navbar ul li a:hover::after {
   transform: scaleX(1);
 }
-
+.navbar a:hover {
+      color: #ff2e88;
+}
 /* Search bar */
 .search-bar {
     display: flex;
